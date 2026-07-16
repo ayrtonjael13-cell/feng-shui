@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Natalia Riley Profesional</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8faf8;
+    color:#222;
+    line-height:1.6;
+}
+
+header{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero{
+    max-width:800px;
+}
+
+.hero h1{
+    font-size:clamp(2.5rem,5vw,4.5rem);
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#7dbb72;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:999px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:90px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.3rem;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#666;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:25px;
+}
+
+.about-text h2{
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.testimonials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.testimonial{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.cta{
+    text-align:center;
+    background:#eef6eb;
+    border-radius:30px;
+    padding:70px 30px;
+}
+
+footer{
+    background:#111;
+    color:#aaa;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+    .about{
+        grid-template-columns:1fr;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Transforma tus espacios, transforma tu energía</h1>
+        <p>
+            Consultoría profesional de Feng Shui para hogares,
+            oficinas y negocios. Diseñamos ambientes equilibrados,
+            armónicos y funcionales.
+        </p><h2>Natalia Riley</h2>
+        <a href="#contacto" class="btn">Solicitar Asesoría</a>
+    </div>
+</header>
+
+<section>
+    <div class="section-title">
+        <h2>Servicios</h2>
+        <p>Soluciones personalizadas para cada espacio.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🏡 Hogares</h3>
+            <p>
+                Optimización de ambientes para mejorar bienestar,
+                descanso y armonía familiar.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏢 Negocios</h3>
+            <p>
+                Diseño estratégico de espacios para potenciar
+                productividad y prosperidad.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Consultoría Online</h3>
+            <p>
+                Asesoramiento remoto para cualquier lugar del mundo.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="about">
+
+    <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80">
+
+    <div class="about-text">
+        <h2>Equilibrio, bienestar y armonía</h2>
+
+        <p>
+            El Feng Shui busca crear espacios que favorezcan el flujo
+            natural de energía, mejorando la calidad de vida y la
+            conexión con el entorno.
+        </p>
+
+        <br>
+
+        <p>
+            Cada proyecto es analizado de forma personalizada para
+            encontrar soluciones prácticas y estéticas adaptadas a
+            las necesidades de cada cliente.
+        </p>
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Testimonios</h2>
+        <p>Experiencias de clientes.</p>
+    </div>
+
+    <div class="testimonials">
+
+        <div class="testimonial">
+            ⭐⭐⭐⭐⭐
+            <p>
+                "La energía de nuestro hogar cambió completamente.
+                El ambiente se siente más tranquilo y organizado."
+            </p>
+        </div>
+
+        <div class="testimonial">
+            ⭐⭐⭐⭐⭐
+            <p>
+                "Excelente asesoramiento. Implementamos cambios
+                simples que tuvieron un gran impacto."
+            </p>
+        </div>
+
+        <div class="testimonial">
+            ⭐⭐⭐⭐⭐
+            <p>
+                "Muy profesional y detallista. Recomiendo totalmente."
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contacto">
+
+    <div class="cta">
+
+        <h2>¿Listo para transformar tu espacio?</h2>
+
+        <p style="margin:20px 0;">
+            Contactanos para recibir una asesoría personalizada.
+        </p>
+
+        <a href="https://wa.me/5492284530002?text=Hola,%20encontr%C3%A9%20su%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20recibir%20una%20asesor%C3%ADa%20de%20Feng%20Shui.%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F%20Muchas%20gracias.
+        " class="btn">
+            Contactar por WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 · Consultoría Profesional de Feng Shui
+</footer>
+
+</body>
+</html>
